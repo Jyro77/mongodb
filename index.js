@@ -24,7 +24,7 @@ const Movie = mongoose.model('Movie', movieSchema);
     score: 9.2,
     rating: 'R'
 }) */
-Movie.insertMany([{
+/* Movie.insertMany([{ 
         title: 'Amelie',
         year: 2001,
         score: 8.3,
@@ -53,4 +53,4 @@ Movie.insertMany([{
     .then(data => {
         console.log('It Worked')
         console.log(data);
-    })
+    }) */
